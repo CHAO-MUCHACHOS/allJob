@@ -1,0 +1,46 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     
+  }
+  a {
+    border: 2px solid ;
+    border-radius: 15px;
+    padding: 10px;
+     background: linear-gradient(#d2c751, #d7830f);
+    
+  }
+  p {
+    
+    margin: 35px 0px ;
+    width: 115px;
+    transition: 0.5s;
+  }
+  .border {
+     border: 2px solid ;
+    border-radius: 15px;
+    padding: 10px;
+     background: linear-gradient(#d2c751, #c27100);
+    transition: 0.5s;
+    margin: 10px;
+  }
+  summary:hover {
+    transition: 0.5s;
+    transform: translateY(2px);
+    box-shadow: 1px 10px 15px #cead55;
+     background: linear-gradient(#c27100,#d2c751 );
+    
+  }
+  a:hover {
+     transition: 0.5s;
+    transform: translateY(2px);
+    box-shadow: 1px 13px 15px #cead55;
+    
+  }
+  a:hover {
+  background: linear-gradient(#c27100,#d2c751 );
+  }
+  
